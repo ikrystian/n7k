@@ -27,7 +27,7 @@ const routes = [
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes, { useHash: true })
   ],
   providers: [],
   bootstrap: [AppComponent]
